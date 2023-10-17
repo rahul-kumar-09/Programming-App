@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/programs"
+            android:icon="@drawable/baseline_computer_24"
+            android:title="@string/program" />
+
+        <item
+            android:id="@+id/interView"
+            android:icon="@drawable/baseline_text_snippet_24"
+            android:title="@string/interview_questions" />
+
+        <item
+            android:id="@+id/about_app"
+            android:icon="@drawable/baseline_info_24"
+            android:title="@string/about_app" />
+
+    </group>
+
+</menu>
