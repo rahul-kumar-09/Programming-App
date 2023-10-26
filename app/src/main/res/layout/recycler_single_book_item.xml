@@ -4,18 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:elevation="10dp"
+    app:cardElevation="10dp"
+    android:background="@color/white"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginBottom="10dp"
     android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/llContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="10dp"
-        android:padding="5dp">
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp">
 
         <ImageView
             android:id="@+id/imgImageView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             app:srcCompat="@drawable/ic_launcher_background" />
 
         <TextView

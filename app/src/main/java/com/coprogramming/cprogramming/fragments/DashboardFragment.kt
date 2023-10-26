@@ -13,9 +13,9 @@ import com.coprogramming.cprogramming.adapter.DashboardRecyclerAdapter
 import com.coprogramming.cprogramming.model.Book
 
 class DashboardFragment : Fragment() {
-    lateinit var dashboardRecycler: RecyclerView
-    lateinit var layoutManager: RecyclerView.LayoutManager
-    lateinit var recyclerAdapter: DashboardRecyclerAdapter
+    private lateinit var dashboardRecycler: RecyclerView
+    private lateinit var layoutManager: RecyclerView.LayoutManager
+    private lateinit var recyclerAdapter: DashboardRecyclerAdapter
 
 
     val bookListInfo = arrayListOf<Book>(

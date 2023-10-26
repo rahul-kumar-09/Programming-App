@@ -13,6 +13,33 @@
         android:theme="@style/Theme.CProgramming"
         tools:targetApi="31">
         <activity
+            android:name=".myDashboardActivity.MainActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.MainActivity1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
