@@ -1,6 +1,7 @@
 package com.coprogramming.cprogramming.adapter
 
 import android.content.Context
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -9,10 +10,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.coprogramming.cprogramming.R
 import com.coprogramming.cprogramming.model.Book
 
-class DashboardRecyclerAdapter(val context: Context, val itemList: ArrayList<Book>) : RecyclerView.Adapter<DashboardRecyclerAdapter.DashboardViewHolder>() {
+
+class DashboardRecyclerAdapter(val context: Context, val itemList: ArrayList<Book>): RecyclerView.Adapter<DashboardRecyclerAdapter.DashboardViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DashboardViewHolder {
-        TODO("Not yet implemented")
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.recycler_single_book_item, parent, false)
+        return DashboardViewHolder(view)
     }
 
     override fun getItemCount(): Int {
@@ -20,17 +23,14 @@ class DashboardRecyclerAdapter(val context: Context, val itemList: ArrayList<Boo
     }
 
     override fun onBindViewHolder(holder: DashboardViewHolder, position: Int) {
-        val books = itemList[position]
-        holder.txtBook.text = books.bookName
-        holder.imgBook.setImageResource(books.bookImage)
-
-
+        val book = itemList[position]
+        holder.bookName.text = book.bookName
+        holder.bookImage.setImageResource(book.bookImage)
     }
 
     class DashboardViewHolder(view: View): RecyclerView.ViewHolder(view){
-        val imgBook: ImageView = view.findViewById(R.id.imgBook)
-        val txtBook: TextView = view.findViewById(R.id.txtBook)
-
+        val bookImage: ImageView = view.findViewById(R.id.imgImageView)
+        val bookName: TextView = view.findViewById(R.id.txtBookName)
     }
 
 }
