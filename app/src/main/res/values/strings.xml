@@ -10,4 +10,15 @@
     <string name="Close_Drawer">Close Drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="java_programming">Java Programming</string>
+    <string name="top_10_questions">Top 10 Questions That Are Asked in The Interview.</string>
+    <string name="_1_what_is_java">1. What is Java?</string>
+    <string name="_2_what_are_the_oops">2. What are the OOPs, and how does Java support them?</string>
+    <string name="_3_what_is_the_difference_between_jdk_jre_and_jvm">3. What is the difference between JDK, JRE, and JVM?</string>
+    <string name="_4_explain_the_significance_">4. Explain the significance of the main method in Java.</string>
+    <string name="_6_what_is_the_difference_">6. What is the difference between equals() and == in Java?</string>
+    <string name="_7_what_is_the_java_memory">7. What is the Java Memory Management Model?</string>
+    <string name="_8_what_are_the_different_access_modifiers_in_java_">8. What are the different access modifiers in Java, and what do they signify?</string>
+    <string name="_9_what_is_the_purpose_of_the_try_">9. What is the purpose of the try, catch, finally, and throw keywords in exception handling?</string>
+    <string name="_10_what_is_multithreading_i">10. What is multithreading in Java, and how can it be achieved?</string>
 </resources>

@@ -19,17 +19,19 @@ class DashboardFragment : Fragment() {
 
 
     val bookListInfo = arrayListOf<Book>(
-        Book("1",R.drawable.basic),
-        Book("1", R.drawable.variable),
-        Book("2", R.drawable.datatype),
-        Book("3",R.drawable.array),
-        Book("4",R.drawable.characters),
-        Book("4",R.drawable.loop),
-        Book("5",R.drawable.errors),
-        Book("6", R.drawable.classes),
-        Book("7", R.drawable.onject),
-        Book("8", R.drawable.inheritance),
-        Book("9",R.drawable.constructors),
+        Book("Introduction",R.drawable.basic),
+        Book("Variable & Data Type", R.drawable.datatype),
+        Book("Array",R.drawable.array),
+        Book("String",R.drawable.characters),
+        Book("Loop",R.drawable.loop),
+        Book("Error & Exception",R.drawable.errors),
+        Book("Class and Object", R.drawable.classes),
+        Book("Pillar of OOPs", R.drawable.pillar),
+        Book("Abstraction", R.drawable.abstraction),
+        Book("Encapsulation", R.drawable.capsule),
+        Book("Inheritance", R.drawable.inheritance),
+        Book("Polymorphism", R.drawable.arrows),
+        Book("Constructor",R.drawable.constructors),
 
         )
 

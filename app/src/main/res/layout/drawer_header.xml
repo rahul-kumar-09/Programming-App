@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="#03A9F4"
+    android:background="#ff8c00"
     android:layout_height="240dp">
 
     <ImageView
@@ -24,7 +24,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
         android:textSize="18sp"
-        android:text="@string/c_programming" />
+        android:text="@string/java_programming" />
 
 
 </LinearLayout>
