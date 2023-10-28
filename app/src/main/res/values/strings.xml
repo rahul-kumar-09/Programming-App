@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">c programming</string>
+    <string name="app_name">Java Programming</string>
     <string name="home">Home</string>
     <string name="program">Program</string>
     <string name="about_app">About App</string>
@@ -21,4 +21,8 @@
     <string name="_8_what_are_the_different_access_modifiers_in_java_">8. What are the different access modifiers in Java, and what do they signify?</string>
     <string name="_9_what_is_the_purpose_of_the_try_">9. What is the purpose of the try, catch, finally, and throw keywords in exception handling?</string>
     <string name="_10_what_is_multithreading_i">10. What is multithreading in Java, and how can it be achieved?</string>
+    <string name="encapsulation_is">Encapsulation is achieved when the object of the class maintains the private state. Other objects are not allowed to access these objects; despite that, the other objects can only access or invoke the list of public functions.</string>
+    <string name="in_simple_word">In simple words, encapsulation means wrapping the data, methods into the class, i.e., into a single unit. Encapsulation automatically accepts the data hiding by making variables private and access them with the help of methods that are public. Access modifiers are used to accomplished data hiding.</string>
+    <string name="encapsulation_program">class Person {\n    private int age;\n \n    public int getAge() {\n        return age;\n    }\n    \n    public void setAge(int age) {\n        this.age = age;\n    }\n}\n \nclass Main {\n    public static void main(String[] args) {\n        // create an object of Person\n        Person p1 = new Person();\n        p1.setAge(21);\n        \n        System.out.println(\"My age is \" + p1.getAge());\n    }\n}</string>
+
 </resources>
