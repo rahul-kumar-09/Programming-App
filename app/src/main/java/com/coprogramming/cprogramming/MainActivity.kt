@@ -12,7 +12,6 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.coprogramming.cprogramming.fragments.AboutAppFragment
 import com.coprogramming.cprogramming.fragments.DashboardFragment
 import com.coprogramming.cprogramming.fragments.InterViewQuesFragment
-import com.coprogramming.cprogramming.fragments.ProgramFragment
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -53,13 +52,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.dashboard -> {
                     openDashboard()
                 }
-                R.id.programs -> {
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.frameLayout, ProgramFragment())
-                        .commit()
-                    supportActionBar?.title = "Program"
-                    drawerLayout.closeDrawers()
-                }
+
                 R.id.about_app -> {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.frameLayout, AboutAppFragment())

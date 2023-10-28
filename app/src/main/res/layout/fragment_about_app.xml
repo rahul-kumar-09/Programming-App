@@ -11,7 +11,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="77dp"
+        android:layout_marginTop="67dp"
         android:layout_marginHorizontal="10dp"
         android:elevation="10dp"
         android:padding="15dp"
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="62dp"
+            android:layout_marginTop="52dp"
             android:text="Developed by"
             android:textColor="#03A9F4"
             android:textSize="45sp"
@@ -66,7 +66,8 @@
                 android:text="Akash Banarjee"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#040303"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:layout_marginBottom="22dp"/>
 
         </LinearLayout>
 
