@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.coprogramming.cprogramming.R
 
-class MainActivity13 : AppCompatActivity() {
+class PillarofOOPsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main13)
+        setContentView(R.layout.activity_pillarof_oops)
     }
 }

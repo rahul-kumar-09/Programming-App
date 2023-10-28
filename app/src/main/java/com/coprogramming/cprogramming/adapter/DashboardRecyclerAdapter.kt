@@ -9,14 +9,22 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.coprogramming.cprogramming.R
 import com.coprogramming.cprogramming.model.Book
-import com.coprogramming.cprogramming.myDashboardActivity.MainActivity1
-import com.coprogramming.cprogramming.myDashboardActivity.MainActivity2
-import com.coprogramming.cprogramming.myDashboardActivity.MainActivity3
-import com.coprogramming.cprogramming.myDashboardActivity.MainActivity4
+import com.coprogramming.cprogramming.myDashboardActivity.AbstractionActivity
+import com.coprogramming.cprogramming.myDashboardActivity.ArrayActivity
+import com.coprogramming.cprogramming.myDashboardActivity.ClassandObjectActivity
+import com.coprogramming.cprogramming.myDashboardActivity.ConstructorActivity
+import com.coprogramming.cprogramming.myDashboardActivity.EncapsulationActivity
+import com.coprogramming.cprogramming.myDashboardActivity.ErrorExceptionActivity
+import com.coprogramming.cprogramming.myDashboardActivity.InheritanceActivity
+import com.coprogramming.cprogramming.myDashboardActivity.IntroductionActivity
+import com.coprogramming.cprogramming.myDashboardActivity.LoopsActivity
+import com.coprogramming.cprogramming.myDashboardActivity.PillarofOOPsActivity
+import com.coprogramming.cprogramming.myDashboardActivity.PolymorphismActivity
+import com.coprogramming.cprogramming.myDashboardActivity.StringActivity
+import com.coprogramming.cprogramming.myDashboardActivity.VariableDataTypeActivity
 
 
 class DashboardRecyclerAdapter(val context: Context, val itemList: ArrayList<Book>): RecyclerView.Adapter<DashboardRecyclerAdapter.DashboardViewHolder>() {
@@ -36,17 +44,21 @@ class DashboardRecyclerAdapter(val context: Context, val itemList: ArrayList<Boo
         holder.bookImage.setImageResource(book.bookImage)
 
         holder.llContent.setOnClickListener {
-            if (position == 0){
-                val intent = Intent(context, MainActivity1::class.java)
-                context.startActivity(intent)
-            } else if (position == 1){
-                context.startActivity(Intent(context,MainActivity2::class.java))
-            } else if (position == 2){
-                context.startActivity(Intent(context,MainActivity3::class.java))
-            } else if ((position == 3)){
-                context.startActivity(Intent(context,MainActivity4::class.java))
-            } else {
-                Toast.makeText(context, "Not Available", Toast.LENGTH_SHORT).show()
+            when(position){
+                0-> context.startActivity(Intent(context, IntroductionActivity::class.java))
+                1-> context.startActivity(Intent(context, VariableDataTypeActivity::class.java))
+                2-> context.startActivity(Intent(context, ArrayActivity::class.java))
+                3-> context.startActivity(Intent(context, StringActivity::class.java))
+                4-> context.startActivity(Intent(context, LoopsActivity::class.java))
+                5-> context.startActivity(Intent(context, ErrorExceptionActivity::class.java))
+                6-> context.startActivity(Intent(context, ClassandObjectActivity::class.java))
+                7-> context.startActivity(Intent(context, PillarofOOPsActivity::class.java))
+                8-> context.startActivity(Intent(context, AbstractionActivity::class.java))
+                9-> context.startActivity(Intent(context, EncapsulationActivity::class.java))
+                10-> context.startActivity(Intent(context, InheritanceActivity::class.java))
+                11-> context.startActivity(Intent(context, PolymorphismActivity::class.java))
+                12-> context.startActivity(Intent(context, ConstructorActivity::class.java))
+
             }
         }
     }
@@ -55,6 +67,7 @@ class DashboardRecyclerAdapter(val context: Context, val itemList: ArrayList<Boo
         val bookImage: ImageView = view.findViewById(R.id.imgImageView)
         val bookName: TextView = view.findViewById(R.id.txtBookName)
         val llContent: LinearLayout = view.findViewById(R.id.llContent)
+
     }
 
 }

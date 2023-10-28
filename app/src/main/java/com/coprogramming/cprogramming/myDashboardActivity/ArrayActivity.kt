@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.coprogramming.cprogramming.R
 
-class MainActivity8 : AppCompatActivity() {
+class ArrayActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main8)
+        setContentView(R.layout.activity_array)
     }
 }

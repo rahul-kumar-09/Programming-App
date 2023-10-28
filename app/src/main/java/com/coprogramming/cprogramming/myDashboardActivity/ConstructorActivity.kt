@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.coprogramming.cprogramming.R
 
-class MainActivity4 : AppCompatActivity() {
+class ConstructorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main4)
+        setContentView(R.layout.activity_constructor)
     }
 }

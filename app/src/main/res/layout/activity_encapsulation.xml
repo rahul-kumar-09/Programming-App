@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".myDashboardActivity.MainActivity4">
+    tools:context=".myDashboardActivity.EncapsulationActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,45 @@
         android:theme="@style/Theme.CProgramming"
         tools:targetApi="31">
         <activity
+            android:name=".myDashboardActivity.ConstructorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.PolymorphismActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.InheritanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.EncapsulationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.AbstractionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.PillarofOOPsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.ClassandObjectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.ErrorExceptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.LoopsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.StringActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.ArrayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.VariableDataTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myDashboardActivity.IntroductionActivity"
+            android:exported="false" />
+        <activity
             android:name=".myDashboardActivity.MainActivity13"
             android:exported="false" />
         <activity
