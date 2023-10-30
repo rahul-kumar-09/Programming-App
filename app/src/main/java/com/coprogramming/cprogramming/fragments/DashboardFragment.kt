@@ -23,7 +23,7 @@ class DashboardFragment : Fragment() {
         Book("Variable & Data Type", R.drawable.datatype),
         Book("Array",R.drawable.array),
         Book("String",R.drawable.characters),
-        Book("Loops",R.drawable.loop),
+        Book("Loop",R.drawable.loop),
         Book("Error & Exception",R.drawable.errors),
         Book("Class and Object", R.drawable.classes),
         Book("Pillar of OOPs", R.drawable.pillar),
