@@ -27,7 +27,6 @@
     <string name="java_is_widely">Java is a widely-used, high-level, object-oriented programming language that has played a significant role in the world of software development since its introduction in the mid-1990s. Developed by James Gosling and his team at Sun Microsystems, Java was designed with the goal of providing a platform-independent, versatile, and reliable programming language for a wide range of applications. \n</string>
     <string name="some_keys">Here\'s an introduction to some key aspects of Java:\n\n 1.Platform Independence\n2. Object-Oriented\n3. Strongly Typed\n4. Multi-Threaded\n5. Rich Standard Library\n6. Security\n7. Community and Ecosystem\n8. Garbage Collection\n9. Performance\n10.Versatile Applications</string>
     <string name="in_java_variable">In Java, a variable is a named storage location that holds data or values that can be used and manipulated within a program. Variables are used to store information that a Java program can access and modify during its execution. Each variable has a name, a data type, and a value</string>
-    <string name="example_of_variable">Example: \n int age; // Declaration \n
-age = 30; // Initialization with a value </string>
+    <string name="example_of_variable">Example: \n int age; // Declaration \n age = 30; // Initialization with a value </string>
 
 </resources>
