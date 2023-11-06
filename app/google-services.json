@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "427409068608",
+    "firebase_url": "https://simpleloginsignup-2b8f2-default-rtdb.firebaseio.com",
+    "project_id": "simpleloginsignup-2b8f2",
+    "storage_bucket": "simpleloginsignup-2b8f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427409068608:android:aae0da2426d76ce69145a5",
+        "android_client_info": {
+          "package_name": "com.coprogramming.cprogramming"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjrMSM_pwmhTkVVSO85WWJXN0a9abSD80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427409068608:android:fc4c04d7dfaa7b8d9145a5",
+        "android_client_info": {
+          "package_name": "com.programmingz.createuser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjrMSM_pwmhTkVVSO85WWJXN0a9abSD80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427409068608:android:b2bda8137f8cb7b19145a5",
+        "android_client_info": {
+          "package_name": "com.programmingz.emailpassword"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjrMSM_pwmhTkVVSO85WWJXN0a9abSD80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427409068608:android:e8a290f110a256b69145a5",
+        "android_client_info": {
+          "package_name": "com.programmingz.googlesign"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjrMSM_pwmhTkVVSO85WWJXN0a9abSD80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
