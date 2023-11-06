@@ -1,5 +1,6 @@
 package com.coprogramming.cprogramming
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -12,6 +13,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.coprogramming.cprogramming.fragments.AboutAppFragment
 import com.coprogramming.cprogramming.fragments.DashboardFragment
 import com.coprogramming.cprogramming.fragments.InterViewQuesFragment
+import com.coprogramming.cprogramming.myProfile.ProfileActivity
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -66,6 +68,9 @@ class MainActivity : AppCompatActivity() {
                         .commit()
                     supportActionBar?.title = "Interview Question"
                     drawerLayout.closeDrawers()
+                }
+                R.id.profile->{
+                    startActivity(Intent(this, ProfileActivity::class.java))
                 }
 
             }

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".myProfile.ProfileActivity">
+
+
+    <TextView
+        android:id="@+id/blankName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/primaryColor"
+        android:textStyle="bold"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/blankName"
+        android:textColor="@color/primaryColor"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/blankEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/blankName"
+        android:textSize="19sp"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/blankEmail"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/txtName"
+        android:textSize="19sp"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/blankAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blankEmail"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="19sp"
+        android:text="Address" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/blankAddress"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/txtEmail"
+        android:textSize="19sp"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txtAddress"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:text="Logut" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/btnLogout"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

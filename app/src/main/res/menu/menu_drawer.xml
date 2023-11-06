@@ -18,6 +18,12 @@
             android:icon="@drawable/baseline_info_24"
             android:title="@string/about_app" />
 
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/icon_profie"
+            android:title="Profile"/>
+
+
     </group>
 
 </menu>
