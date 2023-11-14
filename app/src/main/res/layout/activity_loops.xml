@@ -16,4 +16,29 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         android:minHeight="?attr/actionBarSize" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="@string/loop_in_java" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 </LinearLayout>
