@@ -23,6 +23,11 @@
             android:icon="@drawable/icon_profie"
             android:title="Profile"/>
 
+        <item
+            android:id="@+id/logout_exit"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Logout"/>
+
 
     </group>
 

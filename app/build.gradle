@@ -8,9 +8,6 @@ android {
     namespace 'com.coprogramming.cprogramming'
     compileSdk 33
 
-    buildFeatures{
-        viewBinding true
-    }
 
     defaultConfig {
         applicationId "com.coprogramming.cprogramming"
@@ -34,6 +31,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    buildFeatures{
+        viewBinding true
     }
 
 }

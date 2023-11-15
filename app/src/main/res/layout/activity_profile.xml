@@ -78,21 +78,11 @@
 
 
     <Button
-        android:id="@+id/btnLogout"
-        android:layout_width="match_parent"
-        android:layout_below="@id/txtAddress"
-        android:layout_marginHorizontal="20sp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginBottom="15dp"
-        android:layout_height="wrap_content"
-        android:text="Logut" />
-
-    <Button
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Back"
-        android:layout_below="@id/btnLogout"
+        android:layout_below="@id/blankAddress"
         android:layout_marginHorizontal="15dp"
         android:layout_marginTop="10dp"/>
 

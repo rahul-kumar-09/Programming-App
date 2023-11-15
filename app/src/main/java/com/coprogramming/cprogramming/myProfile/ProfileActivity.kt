@@ -39,11 +39,6 @@ class ProfileActivity : AppCompatActivity() {
             Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show()
         }
 
-        binding.btnLogout.setOnClickListener {
-            Firebase.auth.signOut()
-            startActivity(Intent(this, LoginActivity::class.java))
-        }
-
         binding.btnBack.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
