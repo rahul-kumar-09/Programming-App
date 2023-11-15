@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         dialog.setMessage("Are you sure to logout.")
         dialog.setIcon(R.drawable.baseline_logout_24)
 
-        dialog.setPositiveButton("Logout"){dialog,which ->
+        dialog.setPositiveButton("Yes"){dialog,which ->
             Firebase.auth.signOut()
             startActivity(Intent(this, LoginActivity::class.java))
             dialog.dismiss()
