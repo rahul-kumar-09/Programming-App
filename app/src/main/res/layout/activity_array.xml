@@ -31,13 +31,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Array"
-                android:textColor="#000000"
+                android:textColor="@color/heading_color"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/heading_two_item"
                 android:text="@string/array_def"
                 android:textColor="#000000"
                 android:textSize="18sp" />
@@ -54,13 +55,15 @@
                 android:layout_height="wrap_content"
                 android:text="@string/array_defi"
                 android:textColor="#000000"
+                android:background="@drawable/heading_item"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/heading_two_item"
                 android:text="@string/array_declration"
-                android:textColor="#F44336"
+                android:textColor="@color/black"
                 android:textSize="18sp" />
 
             <TextView
@@ -68,14 +71,15 @@
                 android:layout_height="wrap_content"
                 android:text="Simple Array Program \n"
                 android:textStyle="bold"
-                android:textColor="#673AB7"
+                android:textColor="@color/program_color"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/array_program"
-                android:textColor="#3F51B5"
+                android:textColor="@color/black"
+                android:background="@drawable/program_item"
                 android:textSize="18sp" />
 
         </LinearLayout>

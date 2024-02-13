@@ -29,6 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
+                android:background="@drawable/heading_item"
                 android:textColor="@color/black"
                 android:text="@string/abstraction_def" />
             <TextView
@@ -42,6 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
+                android:background="@drawable/program_item"
                 android:textColor="@color/black"
                 android:text="@string/example" />
 

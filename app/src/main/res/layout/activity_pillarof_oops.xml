@@ -29,7 +29,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
-                android:textColor="#3F51B5"
+                android:background="@drawable/heading_two_item"
+                android:textColor="@color/program_color"
                 android:textStyle="bold"
                 android:text="1.Encapsulation \n 2.Inheritance \n 3.Abstraction \n 4.Polymorphism" />
 

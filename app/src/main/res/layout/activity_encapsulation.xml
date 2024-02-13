@@ -27,11 +27,22 @@
             android:padding="10dp"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Encapsulation"
+                android:textColor="@color/heading_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:background="@drawable/heading_item"
                 android:text="@string/encapsulation_is"
                 android:textSize="18sp" />
 
@@ -39,6 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:background="@drawable/heading_two_item"
                 android:text="@string/in_simple_word"
                 android:textSize="18sp" />
 
@@ -47,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Example"
+                android:textColor="@color/program_color"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -54,6 +68,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:background="@drawable/program_item"
                 android:text="@string/encapsulation_program"
                 android:textSize="18sp" />
 

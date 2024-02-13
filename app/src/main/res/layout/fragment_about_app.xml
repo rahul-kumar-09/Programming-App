@@ -14,6 +14,8 @@
         android:layout_marginTop="67dp"
         android:layout_marginHorizontal="10dp"
         android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
         android:padding="15dp"
         android:orientation="vertical">
 
@@ -47,10 +49,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="22dp"
+                android:text="Akash Banarjee"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#040303"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
                 android:text="Gourav Kumar"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#040303"
                 android:textSize="22sp" />
+
+
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,16 +73,6 @@
                 android:layout_gravity="center_horizontal"
                 android:textColor="#040303"
                 android:textSize="22sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="22dp"
-                android:text="Akash Banarjee"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#040303"
-                android:textSize="22sp"
-                android:layout_marginBottom="22dp"/>
 
             <TextView
                 android:id="@+id/textView6"

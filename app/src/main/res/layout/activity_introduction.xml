@@ -30,6 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
+                android:background="@drawable/heading_two_item"
                 android:layout_marginTop="22dp"
                 android:textColor="@color/black"
                 android:text="@string/java_is_widely"
@@ -40,6 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:textColor="@color/black"
+                android:background="@drawable/heading_item"
                 android:text="@string/some_keys"
                 android:textSize="18sp" />
 
@@ -56,6 +58,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hello_world"
                 android:textColor="@color/black"
+                android:background="@drawable/program_item"
                 android:textSize="19sp" />
 
         </LinearLayout>

@@ -9,6 +9,11 @@
     android:gravity="center"
     tools:context=".myProfile.ProfileActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_item"
+        android:layout_marginHorizontal="20dp">
 
     <TextView
         android:id="@+id/blankName"
@@ -75,16 +80,6 @@
         android:layout_below="@id/txtEmail"
         android:textSize="19sp"
         android:text="" />
-
-
-    <Button
-        android:id="@+id/btnBack"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Back"
-        android:layout_below="@id/blankAddress"
-        android:layout_marginHorizontal="15dp"
-        android:layout_marginTop="10dp"/>
-
+    </RelativeLayout>
 
 </RelativeLayout>

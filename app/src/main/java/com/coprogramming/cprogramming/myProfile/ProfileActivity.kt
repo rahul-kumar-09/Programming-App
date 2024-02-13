@@ -39,9 +39,7 @@ class ProfileActivity : AppCompatActivity() {
             Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show()
         }
 
-        binding.btnBack.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
-        }
+
 
 
 

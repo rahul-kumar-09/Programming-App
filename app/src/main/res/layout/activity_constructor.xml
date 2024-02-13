@@ -28,7 +28,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#3F51B5"
+                android:textColor="@color/program_color"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:text="Constructor" />
@@ -36,12 +36,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
+                android:background="@drawable/heading_two_item"
                 android:textSize="18sp"
                 android:text="@string/constructor_def" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#3F51B5"
+                android:textColor="@color/heading_color"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:text="\n Example" />
@@ -49,6 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
+                android:background="@drawable/program_item"
                 android:textSize="18sp"
                 android:text="@string/constructor_def_prog" />
         </LinearLayout>
